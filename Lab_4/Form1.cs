@@ -18,16 +18,17 @@ namespace Lab_4
         {
 
         }
-        // Тестовое изменение файла 1
+        // Тестовое изменение файла 2
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //ЧЕРНЫЙ
+            //СЕРЫЙ
+            //сИНИЙ
+            //ГОЛУБОЙ
             double a; double b; double c; double d = 0;
             
             a = Convert.ToDouble(numericUpDown1.Text);
-            ч
             b = Convert.ToDouble(numericUpDown2.Text);
-            // Шаг
             c = Convert.ToDouble(comboBox1.Text);
             richTextBox1.AppendText("X       F(x)\r\n----------" + "\n");
             for (double i = a; i <= b; i += c)
