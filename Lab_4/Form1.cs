@@ -22,7 +22,7 @@ namespace Lab_4
         private void button1_Click(object sender, EventArgs e)
         {
             //×ÅÐÍÛÉ
-            //ÑÅÐÛÉ
+            //ÑÅÐÛÉx
             //ñÈÍÈÉ
             //ÃÎËÓÁÎÉ
             double a; double b; double c; double d = 0;
@@ -36,7 +36,6 @@ namespace Lab_4
                 if (listBox1.Text == "Cos")
                 {
                     d = Math.Cos(i);
-                    // To÷íîñòü âû÷èñëåíèé
                     if (radioButton1.Checked == true) d = Math.Round(d, 2);
                     if (radioButton2.Checked == true) d = Math.Round(d, 3);
                     if (radioButton3.Checked == true) d = Math.Round(d, 4);
@@ -55,7 +54,6 @@ namespace Lab_4
                     if (radioButton2.Checked == true) d = Math.Round(d, 3);
                     if (radioButton3.Checked == true) d = Math.Round(d, 4);
                 }
-                //else if (radioButton1.Checked == false || listBox1.Text == "   ") MessageBox.Show("Ââåäèòå çíà÷åíèÿ");
                 richTextBox1.AppendText(Convert.ToString(i) + "       " + Convert.ToString(d) + "\n");
 
             }
@@ -85,7 +83,6 @@ namespace Lab_4
                 g.DrawLine(Pens.Blue, -pictureBox1.ClientRectangle.Width / 2, 0, pictureBox1.ClientRectangle.Width / 2, 0);
                 g.DrawLine(Pens.Blue, 0, -pictureBox1.ClientRectangle.Height / 2, 0, pictureBox1.ClientRectangle.Height / 2);
                 g.DrawLines(Pens.Red, ptf);
-                //g.Dispose();
 
             }
             else if (listBox1.Text == "Cos")
@@ -100,10 +97,9 @@ namespace Lab_4
                     cw = (b - a);
                 }
                 catch
-                {
+                
 
                 }
-                // Î÷èñòèì PictureBox
                 if (cw > 0)
                 {
                     g.Clear(pictureBox1.BackColor);
