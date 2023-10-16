@@ -18,14 +18,14 @@ namespace Lab_4
         {
 
         }
-
+        // Тестовое изменение файла 1
         private void button1_Click(object sender, EventArgs e)
         {
 
             double a; double b; double c; double d = 0;
-            // X1
+            
             a = Convert.ToDouble(numericUpDown1.Text);
-            // X2
+            ч
             b = Convert.ToDouble(numericUpDown2.Text);
             // Шаг
             c = Convert.ToDouble(comboBox1.Text);
