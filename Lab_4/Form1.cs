@@ -11,20 +11,12 @@ namespace Lab_4
 
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
-
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-
         }
-        // Тестовое изменение файла 2
         private void button1_Click(object sender, EventArgs e)
         {
-            //ЧЕРНЫЙ
-            //СЕРЫЙ
-            //сИНИЙ
-            //ГОЛУБОЙ
             double a; double b; double c; double d = 0;
             
             a = Convert.ToDouble(numericUpDown1.Text);
@@ -55,13 +47,10 @@ namespace Lab_4
                     if (radioButton2.Checked == true) d = Math.Round(d, 3);
                     if (radioButton3.Checked == true) d = Math.Round(d, 4);
                 }
-                //else if (radioButton1.Checked == false || listBox1.Text == "   ") MessageBox.Show("Введите значения");
                 richTextBox1.AppendText(Convert.ToString(i) + "       " + Convert.ToString(d) + "\n");
-
             }
             if (listBox1.Text == "Tan")
             {
-
                 double X1; double X2;
                 X1 = Convert.ToDouble(numericUpDown1.Text);
                 X2 = Convert.ToDouble(numericUpDown2.Text);
